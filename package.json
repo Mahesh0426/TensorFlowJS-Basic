@@ -1,0 +1,16 @@
+{
+  "name": "tensorflowjs",
+  "version": "1.0.0",
+  "description": "this is tensorflow course with nodeJs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "ml-regression": "^6.2.0",
+    "nodemon": "^3.1.7"
+  }
+}
